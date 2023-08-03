@@ -75,6 +75,12 @@ func postScrape() {
 }
 
 func main() {
+
+	fmt.Print("ExampleScrape: \n")
 	ExampleScrape()
+
+	fmt.Print("\n")
+
+	fmt.Print("postScrape: \n")
 	postScrape()
 }
